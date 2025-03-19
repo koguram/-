@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: linear-gradient(135deg, #00274D, #004C99);
+    color: #FFD700;
+    padding: 20px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 30px auto;
+}
+h1 {
+    font-weight: 700;
+    color: #00274D;
+}
+.countdown {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 15px 0;
+}
+.policy-list {
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #00274D;
+}
+.candidate {
+    margin-top: 20px;
+}
+.candidate-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #FFD700;
+}
+.social {
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.twitter {
+    background-color: #1da1f2;
+}
+.facebook {
+    background-color: #1877f2;
+}
+.instagram {
+    background-color: #e1306c;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.footer {
+    background: #00274D;
+    color: #FFD700;
+    padding: 10px;
+    margin-top: 20px;
+}
